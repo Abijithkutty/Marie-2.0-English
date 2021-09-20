@@ -177,10 +177,10 @@ else:
     sw = spamwatch.Client(SPAMWATCH_API)
 
 updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
-telethn = TelegramClient("emilia", API_ID, API_HASH)
-pgram = Client("EmiPyro", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
+telethn = TelegramClient("DareAbijth", API_ID, API_HASH)
+pgram = Client("DarePyro", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
 mongo_client = MongoClient(MONGO_DB_URI)
-db = mongo_client.EmiliaAnimeBot
+db = mongo_client.DareAbijthAnimeBot
 dispatcher = updater.dispatcher
 
 
@@ -217,7 +217,7 @@ BOT_MENTION = bottie.mention
 
 end_credits = """
 INFO GATHERED!
-Client: Marie Pyro
-Copyright: (c) 2021 MarieAnimeBot
+Client: DareAbijth Pyro
+Copyright: (c) 2021 DareAbijthAnimeBot
 """
 print(end_credits)

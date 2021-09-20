@@ -1,0 +1,22 @@
+MarieAnimeBot/config.py
+MarieAnimeBot/*.session
+MarieAnimeBot/*.session-journal
+MarieAnimeBot/config.ini
+log.txt
+*.pyc
+.idea/
+.project
+.pydevproject
+.directory
+.vscode
+MarieAnimeBot/modules/helper_funcs/temp.txt
+MarieAnimeBot/elevated_users.json
+start-3.6.bat
+*.session
+kangsticker.png
+venv
+env
+Marie.session-journal
+updates.txt
+*.exe
+© 2021 GitHub, Inc.
